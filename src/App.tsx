@@ -1,6 +1,7 @@
 import React from "react";
 // import logo from './logo.svg';
 // import './App.css';
+import './App.scss'
 import routers from "./router/index";
 import { Route, Link, Routes } from "react-router-dom";
 
@@ -24,7 +25,7 @@ function App() {
               path={item.path}
               key={index}
               element={<item.components />}
-            ></Route>
+            ></Route> //路由组件
           );
         })}
       </Routes>

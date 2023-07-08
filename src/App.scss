@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  a {
+    display: inline-block;
+    width: 100px;
+    line-height: 40px;
+  }
+  a:not(:nth-child(2n)) {
+    margin-right: 10px;
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+  background-color: greenyellow;
+}
